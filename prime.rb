@@ -3,5 +3,5 @@ def prime?(integer)
   if integer % integer = 0
     return false
   else
-    return integer.to_a 
+    return integer.to_a
 end

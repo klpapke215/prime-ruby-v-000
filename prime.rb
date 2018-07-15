@@ -4,4 +4,5 @@ def prime?(integer)
     return false
   else
     return integer.to_a
+  end
 end

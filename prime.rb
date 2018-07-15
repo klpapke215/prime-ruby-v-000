@@ -1,8 +1,9 @@
-def prime?(integer)
-  integer = (1...25)
-  if integer % integer = 0
-    return false
+def prime?(number)
+  if number >= 2
+    (2..number - 1).all? do |x|
+      number % x != 0
+    end
   else
-    return integer.to_a
+    return false
   end
 end
